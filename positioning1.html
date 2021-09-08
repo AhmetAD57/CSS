@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+<style>
+    
+    .box{
+        width: 120px;
+        height: 120px;
+    }    
+
+    .mbox{
+         width: 30px;
+        height: 30px;
+        background-color: yellow;
+        position: absolute;
+        top: 50px;
+        left: 50px;
+    }
+    
+    #first{
+        background-color: red;
+        
+        width: 100%;
+        
+        position: sticky;
+        top: 0px;
+    }
+    
+    #second{
+        background-color: blue;
+        position: relative;
+    }
+    
+    #third{
+        background-color: green;
+        position: fixed;
+        bottom: 0px;
+        right: 0px;
+    }
+</style>
+
+
+</head>
+<body>
+    
+<p>aaaaaaaaaaaaa aaaaaaaaaaaaa aaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaa aaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaa aaaaaaaaaa aaaaaaaaaaaaa aaaaaaaaaaaaaa aaaaaaaaaaaaaa aaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaa aaaaaaaaaaaa aaa</p>
+
+<div class="box" id="first">Box1</div>
+
+<div class="box" id="second">
+<div class="mbox"></div>
+</div>
+
+<div class="box" id="third">Box3</div>
+
+<div style="height: 2000px;"></div>
+
+</body>
+</html>

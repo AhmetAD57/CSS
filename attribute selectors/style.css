@@ -1,0 +1,36 @@
+p[title]{
+    border: 1px solid blue;
+    padding: 5px;
+}
+
+p[title="p1"]{
+    background-color:  gold;
+}
+
+p[title~="p4"]{
+    background-color:  red;
+}
+
+a[href^="http"]{
+    color: red;
+}
+
+a[href$="com"]{
+    color: orange;
+}
+
+a[href="http://example.net"][target="_blank"]{
+    color: yellow;
+}
+
+input[type="text"]{
+    display: block;
+    width: 150px;
+    background-color: red;
+}
+
+input[type="button"]{
+    background-color: green;
+    color: white;
+    padding: 8px 16px;
+}
